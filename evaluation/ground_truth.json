@@ -1,0 +1,16 @@
+{
+  "eval_sqli.py": [
+    { "rule_id": "PY-SQL-001", "line": 6, "description": "SQL Injection in execute call" }
+  ],
+  "eval_cmdi.py": [
+    { "rule_id": "PY-CMD-001", "line": 6, "description": "os.system command injection" },
+    { "rule_id": "PY-CMD-001", "line": 10, "description": "subprocess.run shell=True command injection" }
+  ],
+  "eval_eval.py": [
+    { "rule_id": "PY-EVAL-001", "line": 3, "description": "Dangerous eval call" }
+  ],
+  "eval_secrets.py": [
+    { "rule_id": "PY-SEC-001", "line": 2, "description": "Hardcoded AWS secret" }
+  ],
+  "eval_secure.py": []
+}
