@@ -11,6 +11,10 @@ venv/
 *.db
 *.sqlite3
 .pytest_cache/
+*.egg-info/
+report.json
+js_report.json
+
 
 # Node / Frontend
 node_modules/
